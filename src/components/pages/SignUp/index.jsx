@@ -6,6 +6,10 @@ const SignUpPage = () => {
     <div>
       <h1>SignUpPage</h1>
       <SignUpForm />
+      <br/>
+      <a href="http://localhost:3000/">Home</a>
+      <br/>
+      <a href="http://localhost:3000/userlist">UserList</a>
     </div>
   );
 };

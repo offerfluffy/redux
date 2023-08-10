@@ -9,6 +9,10 @@ const HomePage = () => {
       <ToDoForm />
       <ToDoList />
       <Counter />
+      <br/>
+      <a href="http://localhost:3000/userlist">UserList</a>
+      <br/>
+      <a href="http://localhost:3000/signup">SignUp</a>
     </div>
   );
 };

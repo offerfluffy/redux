@@ -8,3 +8,8 @@ export const createUser = async (userData) => {
   const response = await httpClient.post("/users", userData);
   return response;
 };
+
+export const getUsers = async () => {
+  const response = await httpClient.get("/users");
+  return response;
+}
