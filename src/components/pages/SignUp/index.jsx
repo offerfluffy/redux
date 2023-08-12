@@ -1,14 +1,15 @@
 import React from "react";
-import SignUpForm from "../../SignUpForm";
+// import SignUpForm from "../../SignUpForm";
+import SignUpForm from "../../SignUpForm/SignUpForm2.0";
 
 const SignUpPage = () => {
   return (
     <div>
       <h1>SignUpPage</h1>
       <SignUpForm />
-      <br/>
+      <br />
       <a href="http://localhost:3000/">Home</a>
-      <br/>
+      <br />
       <a href="http://localhost:3000/userlist">UserList</a>
     </div>
   );
